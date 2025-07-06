@@ -1,8 +1,3 @@
-
-1- client id: 294jljvu34snu0nd4cm8fqf9bu
-1- user pool id: eu-north-1_DVT3Zga6h
-1- Authority Domain: https://cognito-idp.eu-north-1.amazonaws.com/eu-north-1_DVT3Zga6h
-1- testing user dev1@app.com   pass: App@12345
 steps of development
 1- Create Github repo and push the verona primeng template into it.
 1- PKCE (Proof Key for Code Exchange)
@@ -17,3 +12,13 @@ steps of development
 6- IAM user: iam-app-dev
 7- IAM pass: AwsIAM#000
 8- web dev testing user dev1@app.com   pass: App@12345
+
+
+
+<<<<<<<<<<<<<<< Auth Credentials >>>>>>>>>>>>>>>
+9- Authority Domain: https://cognito-idp.eu-north-1.amazonaws.com/eu-north-1_DVT3Zga6h
+10- redirectUrl: 'http://localhost:4200/',
+11- postLogoutRedirectUri: window.location.origin + '/auth/login',
+12- client id: 294jljvu34snu0nd4cm8fqf9bu
+13- user pool id: eu-north-1_DVT3Zga6h
+14- Github Repo: https://github.com/appdevmate/hospitex.git
