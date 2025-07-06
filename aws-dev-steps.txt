@@ -4,7 +4,7 @@ github login: appdevmate
 1- aws pass: AwsCloudApps#000
 1- github pass: MyDevRepos@000
 1- Fullname on AWS: App Dev Mate
-1- 
+1- first IAM user: sami   pass: AwsIAM#000
 1- client id: 294jljvu34snu0nd4cm8fqf9bu
 1- user pool id: eu-north-1_DVT3Zga6h
 1- Authority Domain: https://cognito-idp.eu-north-1.amazonaws.com/eu-north-1_DVT3Zga6h

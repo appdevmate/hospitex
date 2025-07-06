@@ -50,7 +50,7 @@ bootstrapApplication(AppComponent, appConfig)
                         console.warn('🔒 Not authenticated → waiting for user to sign in');
                         // 👇 DO NOT auto-redirect to Cognito
                         // Let user click "Sign In" manually
-                        // oidcSecurityService.authorize();
+                        oidcSecurityService.authorize();
                     }
                 },
                 error: (err) => {
